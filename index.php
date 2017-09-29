@@ -132,16 +132,10 @@ stringFunctions::printThisarr($var);
 
 echo '<h2>ARRAY VALUES  FUNCTION</h2>';
 echo 'INPUT ARRAY: SIZE=>XL, COLOR=PINK</br>';
-   $array3=array("size"=>"XL","color"=>"pink");
-   $var=array_values($array3);
-   stringFunctions::printThisarr($var);
-
-
-
+$array3=array("size"=>"XL","color"=>"pink");
+$var=array_values($array3);
+stringFunctions::printThisarr($var);
+  }
 }
-
-
-
-}
-
 ?>
+
